@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(250, 249, 249, 0.859);
+    
+}
+#im{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity:0.2;
+}
+body{
+    margin: 2px;
+    padding: 5px;
+    justify-content:center;
+    width: 400px;
+    border-radius: 2px;
+    border:solid 2px black ;
+    
+    
+}
+header{width: 400px;
+    padding: 0;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    
+    
+}
+.header{width: 400px;
+    padding: 0;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    
+    
+}
+.borda{height: 105%;
+    border: solid 1px black ;
+    padding: 3px;
+}
+.log1{
+width: 85px;
+
+}
+.log2{
+    width: 70px;
+    
+
+}
+h1{ display: flex;
+    align-items: end;
+    font-size: 20px;
+    color: rgb(35, 35, 244);
+}
+#RM{
+    color: red;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top:3px;
+    margin-left:3px;
+    
+}
+
+.w-100{
+    width: 100%;
+}
+
+.h-100{
+    height: 100%;
+}
+
+.m-2{
+    margin: 12px;
+}
+
+.p-4{
+    padding: 24px;
+}
+
+/**/
+#form-form{
+    & .image-upload{
+        position: relative;
+        width: 60px;
+        height: 80px;
+        border: 1px solid black;
+        border-radius: 1px;
+        box-shadow: 2px 3px 12px #00000060;
+        overflow: hidden;
+    }
+
+    & .image-upload img{
+        object-fit: cover;
+    }
+
+    & .image-upload i{
+        position: absolute;
+        margin: 0 auto;
+        font-size: 50px;
+        color: purple;
+    }
+
+    & #image-field{
+        position: absolute;
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        opacity: 0;
+    }
+}
+
+
+
+
+h3{
+    text-align: right;
+    font-size:10px;
+    color: rgb(255, 0, 0);
+}
+.infoDados{
+
+    
+    text-align: center;
+    justify-content: space-around;
+    font-size:15px;
+
+
+}
+body{ 
+    margin: auto;
+    text-align: left;
+    justify-content:left;
+    
+}
+.NomeSexo{display:flex;
+    
+    justify-content:space-around;;
+    font-size: 12px;
+}
+#nome{
+    width: 298px;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+
+.email{
+    
+    display:flex;
+
+}
+.naturalidade{
+    display: flex;
+    justify-content: space-around;
+}
+#naturalidade{
+    width: 225px;
+
+}
+#email{
+    width: 250px;
+}
+#nasc{
+    text-align: right;
+}
+.civ{
+    display:flex;
+    justify-content:space-around;
+}
+#uf{
+    width: 200px;
+    text-align: center;
+    
+}
+p{height: 36px;
+    font-size:12px;
+    border:solid 1px black ;
+    text-align: left;
+    padding: 2px;
+}
+.filiacao{
+     justify-content: center;
+
+    
+    
+}
+#pai{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+#mae{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.endereco1{
+    display:flex;
+    justify-content:space-around;
+ 
+
+}
+.endereco{
+    
+    justify-content: left;
+    margin-left: 3px;
+    
+}
+
+
+.endereco2{
+display:flex;
+justify-content: space-around;
+
+}
+#rua{
+    width: 355px;
+    text-transform: uppercase;
+}
+#bairro{
+    width: 285px;
+    text-transform: uppercase;
+}
+#cep{
+    width: 95px;
+}
+   
+
+.contato{
+     
+    display:flex;
+    justify-content: space-around;
+
+}
+#telfixo{
+    width: 150px;
+}
+    
+#telcelular{
+    
+    width: 150px;
+    text-align:center;
+    justify-content:left;
+    align-items: left;
+   
+    
+}
+#cidade{
+    text-transform: uppercase;
+}
+#estado{
+    text-transform: uppercase;
+}
+.igreja{
+   
+    font-size: 12px;
+    justify-content: left;
+
+}
+#igreja{
+    width: 350px;
+    text-transform: uppercase;
+}
+.cg{
+    display: flex;
+}
+#cargo{
+        width: 259px;
+}
+.city{
+    display: flex;
+}
+#citybatismo{
+    width: 241px;
+}
+#pastor{
+    width: 350px;
+}
+.telig{
+    display: flex;
+}
+#teligreja{
+    width: 320px;
+
+}
+#ramal{
+    width: 60px;
+}

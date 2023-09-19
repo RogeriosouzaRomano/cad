@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <!-- styles -->
+    <link rel="stylesheet" href="im.css">
+    <!-- scripts -->
+    <script src="im.js"defer ></script>
+    <title>Seminário ADJAP Cadastro</title>
+</head>
+
+<form action="mailto:adjap2017@gmail.com" method="post" >
+<div class="borda" >
+ <header>
+    <img src="img/log2.png" id="im" alt="logo ceia">
+    <!-- cabeçalho -->
+    <img src="img/log1.png" alt="Logo Adjap" class="log1">
+    <h1> <u>Cadastro de Alunos</u></h1>
+    <img src="img/log2.png" alt="Logo Ceia" class="log2">
+    
+    
+ </header>
+ <hr>
+ <body>
+     
+     <!-- entrada de fotos -->
+  <main class="w-100 box">
+        <div class="w-100 box">
+            <div class="box" id="form-form">
+                <!-- image -->
+                <div class="image-upload box">
+                    <img id="image-preview" src="img/5.png" class="w-100 h-100">
+                    <i class="bi bi-cloud-arrow-up"><i>
+                    <input id="image-field" type="file">
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- formulário -->
+  <div class="infoDados">
+        <h3><i>DADOS DOS ALUNOS</i></h3>
+        <label for="RM">
+        <p><b> RM</b>-nº<br><input type="text" name="RM n°" id="RM"></p></label>
+
+    </div>
+    <hr><br>
+    <div class="NomeSexo">
+        <label for="nome">
+            <p>NOME COMPLETO<input type="text" name="Nome Completo"  id="nome" required></p>
+        </label>
+        <p>SEXO
+            <select>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+            </select>
+        </p>
+    </div>
+    <div class="email">
+        <label for="email">
+            <p>E-mail:<input type="email"name="email" id="email"autocomplete="email" required></p>
+        </label>
+        <label for="nasc">
+            <p>DATA NASCIMENTO:<input type="date" name="Nascimento" id="nasc" required></p>
+    </label>
+    </div>
+    <div class="naturalidade">
+        <label for="naturalidade">
+            <p>NATURALIDADE<br><input type="text"name="Naturalidade" placeholder="Brasileiro"id="naturalidade" required></p>
+        </label>
+        
+      
+        <label for="uf">
+           <p>UF<br>
+ <select id="estados"id="uf" required>
+  <option value="AC">Acre</option>
+  <option value="AL">Alagoas</option>
+  <option value="AP">Amapá</option>
+  <option value="AM">Amazonas</option>
+  <option value="BA">Bahia</option>
+  <option value="CE">Ceará</option>
+  <option value="DF">Distrito Federal</option>
+  <option value="ES">Espírito Santo</option>
+  <option value="GO">Goiás</option>
+  <option value="MA">Maranhão</option>
+  <option value="MT">Mato Grosso</option>
+  <option value="MS">Mato Grosso do Sul</option>
+  <option value="MG">Minas Gerais</option>
+  <option value="PA">Pará</option>
+  <option value="PB">Paraíba</option>
+  <option value="PR">Paraná</option>
+  <option value="PE">Pernambuco</option>
+  <option value="PI">Piauí</option>
+  <option value="RJ">Rio de Janeiro</option>
+  <option value="RN">Rio Grande do Norte</option>
+  <option value="RS">Rio Grande do Sul</option>
+  <option value="RO">Rondônia</option>
+  <option value="RR">Roraima</option>
+  <option value="SC">Santa Catarina</option>
+  <option value="SP">São Paulo</option>
+  <option value="SE">Sergipe</option>
+  <option value="TO">Tocantins</option>
+ </select>
+            </label>
+    </div>
+        <label for="estadoCivil">
+            <p><label for="estado_civil">Estado Civil<br></label>
+                <select id="estado_civil" name="estado_civil" required>
+                  <option value="solteiro">Solteiro</option>
+                  <option value="casado">Casado</option>
+                  <option value="divorciado">Divorciado</option>
+                  <option value="viuvo">Viúvo</option>
+                </select></p>
+        </label>
+       </div>
+    <div class="filiacao">
+        <label for="pai">    
+            <p>NOME PAI:<input type="text" id="pai"></p>
+        </label>
+        <label for="mae" >
+            <p>NOME MÃE:<input type="text"    id="mae" required></p>
+        </label>
+     </div>      
+    
+    <div class="endereco">
+        <label for="rua">
+            <p>END.RESIDENCIAL<br><input type="text"name="Endereço" id="rua" required></p>
+        </label>
+    </div>
+    <div class="endereco1">
+            <label for="bairro">
+            <p>BAIRRO<br><input type="text"name="bairro" id="bairro" required></p>
+        </label>
+        <label for="cep">
+           <p>CEP<br><input type="text"name="CEP"placeholder="xxxxx-xxx" id="cep" required></p>
+        </label>
+    </div>  
+   
+    <div class="endereco2">
+        <label for="cidade">
+            <p>CIDADE:<input type="text"name="Cidade" id="cidade" required></p>
+        </label>
+        <label for="estado">
+            <p>ESTADO:<input type="text"name="Estado" id="estado" required></p>
+        </label>
+    </div>
+    <div class="contato">
+        <label for="telfixo">
+            <p>TELEFONE FIXO<input type="tel" placeholder="(xxx)xxxx-xxxx" name="tel"id="telfixo" autocomplete="tel"></p>
+        </label>
+        <label for="telcelular">
+        <p>TELEFONE CELULAR<input type="tel"name="Celular" autocomplete="tel" placeholder="(xxx)xxxxx-xxxx" id="telcelular" required></p>
+        </label>
+   </div>
+    <div class="igreja">
+        <label for="igreja">
+            <p>IGREJA EM QUAL É MEMBRO<br><input type="text" name="Denominação"id="igreja" required></p>
+        </label>
+   </div>
+   <div class="cg">
+        <label for="cargo">
+            <p>EXERCE QUAL CARGO<br>
+            <input type="text" name="CARGO" id="cargo"></p>
+        </label>
+        
+       <label for="dtbatismo">
+            <p>DATA BATISMO<br>
+            <input type="date" name="CARGO" id="dtbatismo"></p>
+        </label>
+    </div>  
+    <div class="city">
+        <label for="citybatismo">
+            <p>CIDADE<br>
+            <input type="text" name="cidadeBatismo" id="citybatismo"></p>
+        </label>
+        <label for="uf2">
+            <p>UF<br>
+                <select id="estados"id="uf" required>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+                </p>
+        </label>
+    </div>
+    <label for="pastor">
+        <p>PASTOR <input type="text" name="PASTOR" id="pastor">
+        </p>
+    </label>
+    <div class="telig">
+        <label for="teligreja">
+            <p>TELEFONE DA IGREJA <br> <input type="text" name="TELIGREJA" autocomplete="tel" placeholder="(xxx)xxxxx-xxxx"id="teligreja"></p>
+        </label>
+        <label for="ramal">
+            <p>RAMAL <br><input type="text" name="RAMAL" id="ramal"></p>
+        </label>
+    </div>
+  </body>
+</div>
+</form>
+
+    <input type="submit" value="Enviar e-mail" />
+    <button onclick="window.print()">Imprimir / Salvar PDF</button>
+</html>
